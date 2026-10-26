@@ -1,0 +1,63 @@
+{
+  "name": "AISOT 2026",
+  "title": "Workshop on AI-Driven Security for Operational Technology",
+  "tagline": "From OT Telemetry to Intelligent Investigation",
+  "dateLabel": "December 11–14, 2026",
+  "dateNote": "Tentative · Final day to be confirmed",
+  "location": "Montréal, Québec, Canada",
+  "venue": "Venue to be confirmed",
+  "registration": {
+    "status": "soon",
+    "url": null,
+    "deadline": null
+  },
+  "contactEmail": null,
+  "organizers": [],
+  "lastUpdated": "October 26, 2026",
+  "topics": [
+    [
+      "01",
+      "OT telemetry analytics",
+      "Explore network and process-level data to understand operational behavior and identify security-relevant patterns."
+    ],
+    [
+      "02",
+      "AI-driven anomaly detection",
+      "Apply machine learning and data science to unusual network behavior and process measurements, including water pressure."
+    ],
+    [
+      "03",
+      "Intelligent investigation",
+      "Connect anomalies, evidence, and analytical insights through structured investigation workflows."
+    ],
+    [
+      "04",
+      "Agentic AI & tool integration",
+      "Explore AI-assisted interactions between analytical platforms, including ZenithVector and Malcolm."
+    ],
+    [
+      "05",
+      "Collaborative prototyping",
+      "Develop and demonstrate experimental analytics, investigation workflows, and tool integrations together."
+    ]
+  ],
+  "program": [
+    {
+      "title": "Orientation & research questions",
+      "description": "Introduce the workshop objectives, OT datasets, analytical tools, and shared research problems."
+    },
+    {
+      "title": "Data exploration & anomaly detection",
+      "description": "Explore network and process telemetry and experiment with data-driven detection approaches."
+    },
+    {
+      "title": "Investigation & prototyping",
+      "description": "Investigate anomalies, connect analytical platforms, and prototype AI-assisted workflows."
+    },
+    {
+      "title": "Demonstrations & next steps",
+      "description": "Share experimental findings, demonstrate prototypes, and discuss future research opportunities."
+    }
+  ],
+  "sessions": []
+}
