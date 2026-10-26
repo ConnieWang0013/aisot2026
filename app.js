@@ -11,7 +11,7 @@ fetch('./event.json').then(r => { if(!r.ok) throw Error('Event information unava
  event.topics.forEach(([num,title,description])=> { const card=element('article',null,'topic-card'); card.append(element('span',num,'topic-number'),element('h3',title),element('p',description)); grid.append(card); });
  const program=document.querySelector('#program-list');
  const sessions=event.sessions?.length ? event.sessions : event.program;
- sessions.forEach((session,i)=> { const row=element('article'); const body=element('div'); body.append(element('h3',session.title),element('p',session.description)); if(session.time) body.prepend(element('p',session.time,'small-label')); if(session.speaker) body.append(element('p',session.speaker)); row.append(element('span',String(i+1).padStart(2,'0'),'number'),body); program.append(row); });
+ sessions.forEach((session,i)=> { const row=element('article'); const body=element('div'); if(session.dateLabel) body.append(element('p',session.dateLabel,'agenda-date')); body.append(element('h3',session.title),element('p',session.description)); if(session.time) body.prepend(element('p',session.time,'small-label')); if(session.speaker) body.append(element('p',session.speaker)); row.append(element('span',String(i+1).padStart(2,'0'),'number'),body); program.append(row); });
  if(event.organizers?.length){ const list=document.querySelector('#organizer-list'); list.replaceChildren(); event.organizers.forEach(o=> { const person=element('article');person.append(element('h3',o.name),element('p',o.role));list.append(person); }); }
  const registration=event.registration;
  const url=safeURL(registration.url);
