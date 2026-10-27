@@ -38,3 +38,9 @@ nav{font-size:16px;gap:28px}
 footer p,.footer-brand p{font-size:14px;line-height:1.7}
 .badge{font-size:14px;padding:8px 14px}
 @media(max-width:760px){.hero h1{font-size:60px;letter-spacing:-3px}.hero .full-title{font-size:16px}.hero h2{font-size:29px}.hero::before{inset:0 0 0 60%;background-size:36px 36px}.hero::after{width:380px;height:380px;right:-310px;top:60px}.registration>div:first-child>p:not(.eyebrow){font-size:18px}}
+
+/* Confirmed hackathon name and dates. */
+.hero h1{font-size:clamp(45px,5.4vw,78px);letter-spacing:-3px}
+.brand{font-size:21px;white-space:nowrap}.mark{font-size:19px;letter-spacing:-1px}
+@media(min-width:761px) and (max-width:1050px){.menu{display:block;background:none;border:1px solid var(--line);padding:6px 10px;font-size:14px;color:var(--ink)}nav{display:none;position:absolute;left:0;right:0;top:100%;padding:20px 6%;background:var(--paper);border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:16px}nav.open{display:flex}.nav-register{margin-left:0}}
+@media(max-width:760px){.hero h1{font-size:48px;letter-spacing:-2px}.brand{font-size:19px}}

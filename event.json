@@ -1,9 +1,9 @@
 {
-  "name": "AISOT 2026",
+  "name": "2026 OT Hackathon",
   "title": "Workshop on AI-Driven Security for Operational Technology",
   "tagline": "From OT Telemetry to Intelligent Investigation",
   "dateLabel": "December 11–14, 2026",
-  "dateNote": "Tentative · Final day to be confirmed",
+  "dateNote": "Four-day hackathon",
   "location": "Montréal, Québec, Canada",
   "venue": "Venue to be confirmed",
   "registration": {
@@ -13,7 +13,7 @@
   },
   "contactEmail": null,
   "organizers": [],
-  "lastUpdated": "October 26, 2026",
+  "lastUpdated": "October 27, 2026",
   "topics": [
     [
       "01",
