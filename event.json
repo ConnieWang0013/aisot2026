@@ -45,22 +45,22 @@
     {
       "title": "Orientation & research questions",
       "description": "Introduce the workshop objectives, OT datasets, analytical tools, and shared research problems.",
-      "dateLabel": "December X · TBC"
+      "dateLabel": "December 11"
     },
     {
       "title": "Data exploration & anomaly detection",
       "description": "Explore network and process telemetry and experiment with data-driven detection approaches.",
-      "dateLabel": "December X · TBC"
+      "dateLabel": "December 12"
     },
     {
       "title": "Investigation & prototyping",
       "description": "Investigate anomalies, connect analytical platforms, and prototype AI-assisted workflows.",
-      "dateLabel": "December X · TBC"
+      "dateLabel": "December 13"
     },
     {
       "title": "Demonstrations & next steps",
       "description": "Share experimental findings, demonstrate prototypes, and discuss future research opportunities.",
-      "dateLabel": "December X · TBC"
+      "dateLabel": "December 14"
     }
   ],
   "sessions": []

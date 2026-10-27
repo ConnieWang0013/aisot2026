@@ -17,3 +17,24 @@ nav{font-size:16px;gap:28px}
 .registration-panel .fine,.registration-panel #deadline{font-size:15px;line-height:1.7}
 @media(max-width:1150px) and (min-width:761px){header{padding-left:4%;padding-right:4%}nav{gap:17px;font-size:14px}.brand{font-size:21px}.nav-register{margin-left:0;padding:9px 14px}}
 @media(max-width:760px){nav{font-size:17px;gap:17px}.hero-intro{font-size:17px}#hero-registration{font-size:16px}.event-strip strong{font-size:20px}.event-strip small{font-size:16px}.program-layout aside p{font-size:17px}.registration-panel .fine,.registration-panel #deadline{font-size:15px}}
+
+/* Pending local review: consistent body type and date-led agenda. */
+#about .two-col p{font-size:16px}
+#about>div:last-child>p:not(.lead),.topic-card p,#venue>div:first-child>p:not(.lead),#contact-details{font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;line-height:1.65}
+.program-list article{grid-template-columns:110px minmax(0,1fr);gap:24px;padding:26px 0}
+.program-list .agenda-date{font-size:15px;font-weight:600;letter-spacing:0;line-height:1.5;margin:1px 0 0;color:var(--ink)}
+.program-list article>div>p{font-size:16px;line-height:1.65}
+@media(max-width:760px){.program-list article{grid-template-columns:1fr;gap:12px}.program-list .agenda-date{font-size:15px}}
+
+/* Local review refinement: restrained academic cover and readable details. */
+.hero{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(110deg,#fafaf8 30%,#f3f6fa 72%,#e8eef6 100%)}
+.hero::before{content:"";position:absolute;z-index:-1;inset:0 0 0 38%;pointer-events:none;background-image:linear-gradient(rgba(76,106,149,.075) 1px,transparent 1px),linear-gradient(90deg,rgba(76,106,149,.075) 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(90deg,transparent,#000)}
+.hero::after{content:"";position:absolute;z-index:-1;width:540px;height:540px;right:-125px;top:40px;border:1px solid rgba(76,106,149,.12);border-radius:50%;box-shadow:0 0 0 70px rgba(76,106,149,.025),0 0 0 140px rgba(76,106,149,.02);pointer-events:none}
+.hero h1{font-size:clamp(56px,6vw,88px);letter-spacing:-4px}
+.hero .full-title{font-size:17px}
+.hero h2{font-size:clamp(27px,2.6vw,36px);max-width:560px}
+.tags span{font-size:14px;padding:7px 12px}
+.registration>div:first-child>p:not(.eyebrow){font-size:18px;line-height:1.75}
+footer p,.footer-brand p{font-size:14px;line-height:1.7}
+.badge{font-size:14px;padding:8px 14px}
+@media(max-width:760px){.hero h1{font-size:60px;letter-spacing:-3px}.hero .full-title{font-size:16px}.hero h2{font-size:29px}.hero::before{inset:0 0 0 60%;background-size:36px 36px}.hero::after{width:380px;height:380px;right:-310px;top:60px}.registration>div:first-child>p:not(.eyebrow){font-size:18px}}
