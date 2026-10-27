@@ -1,6 +1,6 @@
 {
   "name": "2026 OT Hackathon",
-  "title": "Workshop on AI-Driven Security for Operational Technology",
+  "title": "Hackathon on AI-Driven Security for Operational Technology",
   "tagline": "From OT Telemetry to Intelligent Investigation",
   "dateLabel": "December 11–14, 2026",
   "dateNote": "Four-day hackathon",
@@ -44,7 +44,7 @@
   "program": [
     {
       "title": "Orientation & research questions",
-      "description": "Introduce the workshop objectives, OT datasets, analytical tools, and shared research problems.",
+      "description": "Introduce the event objectives, OT datasets, analytical tools, and shared research problems.",
       "dateLabel": "December 11"
     },
     {
