@@ -62,3 +62,12 @@ footer p,.footer-brand p{font-size:14px;line-height:1.7}
 .actions>.text-link{font-size:15px}
 @media(min-width:1051px) and (max-width:1250px){.brand-name{font-size:20px}.brand-wordmark .brand-year{font-size:17px}.logo-symbol{width:56px;height:36px}}
 @media(max-width:760px){.brand{gap:10px}.logo-symbol{width:56px;height:36px}.brand-wordmark .brand-year{font-size:16px}.brand-name{font-size:20px}.section .eyebrow,.registration .eyebrow{font-size:16px}}
+
+/* Agenda emphasis and registration readability refinements. */
+.program-list h3,.program-list .agenda-date{font-size:19px;font-weight:600;line-height:1.45;letter-spacing:0}
+.program-list article{grid-template-columns:132px minmax(0,1fr)}
+.registration-panel>.small-label{font-size:15px}
+.registration-panel>p{font-size:18px;line-height:1.75}
+.registration-panel .fine,.registration-panel #deadline{font-size:17px;line-height:1.75}
+.program-layout aside>.text-link,.contact-card>.text-link{font-size:16px}
+@media(max-width:760px){.program-list article{grid-template-columns:1fr}.program-list h3,.program-list .agenda-date{font-size:19px}.registration-panel .fine,.registration-panel #deadline{font-size:17px}}
