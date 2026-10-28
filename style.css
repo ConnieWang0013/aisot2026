@@ -55,3 +55,10 @@ footer p,.footer-brand p{font-size:14px;line-height:1.7}
 .faq-contact-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,.8fr);gap:7%}.faq-list details{border-top:1px solid var(--line);padding:20px 0}.faq-list details:last-child{border-bottom:1px solid var(--line)}.faq-list summary{font-size:17px;font-weight:600;cursor:pointer;line-height:1.5;padding-right:12px}.faq-list summary:focus-visible{outline:3px solid #a36624;outline-offset:5px}.faq-list details p{font-size:16px;line-height:1.7;margin:14px 0 6px}.contact-card{background:#eef2f7;padding:28px;align-self:start}.contact-card h3{margin-top:0}.contact-card p{font-size:16px}.back-top{display:inline-block;margin-top:30px}
 @media(min-width:1051px) and (max-width:1250px){nav{gap:16px;font-size:14px}.brand{font-size:19px}header{padding-left:4%;padding-right:4%}}
 @media(max-width:760px){.logo-symbol{width:36px;height:36px}.registration{grid-template-columns:1fr;gap:24px}.registration-panel{padding:27px 0 0}.outcomes-grid,.faq-contact-grid{grid-template-columns:1fr;gap:20px}.outcomes-grid article{padding:24px}.registration h2{font-size:34px}}
+
+/* OT/H identity and consistent section labels. */
+.brand{gap:12px;letter-spacing:-.5px}.logo-symbol{width:62px;height:40px;margin-right:0}.brand-wordmark{display:flex;flex-direction:column;align-items:flex-start;gap:0;line-height:1.05}.brand-wordmark .brand-year{font-size:19px;font-weight:600;color:#7486a0}.brand-name{font-size:23px;font-weight:700;color:#203b60}
+.section .eyebrow,.registration .eyebrow{font-size:16px;line-height:1.65;letter-spacing:1.8px;font-weight:700}
+.actions>.text-link{font-size:15px}
+@media(min-width:1051px) and (max-width:1250px){.brand-name{font-size:20px}.brand-wordmark .brand-year{font-size:17px}.logo-symbol{width:56px;height:36px}}
+@media(max-width:760px){.brand{gap:10px}.logo-symbol{width:56px;height:36px}.brand-wordmark .brand-year{font-size:16px}.brand-name{font-size:20px}.section .eyebrow,.registration .eyebrow{font-size:16px}}
