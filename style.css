@@ -44,3 +44,14 @@ footer p,.footer-brand p{font-size:14px;line-height:1.7}
 .brand{font-size:21px;white-space:nowrap}.mark{font-size:19px;letter-spacing:-1px}
 @media(min-width:761px) and (max-width:1050px){.menu{display:block;background:none;border:1px solid var(--line);padding:6px 10px;font-size:14px;color:var(--ink)}nav{display:none;position:absolute;left:0;right:0;top:100%;padding:20px 6%;background:var(--paper);border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:16px}nav.open{display:flex}.nav-register{margin-left:0}}
 @media(max-width:760px){.hero h1{font-size:48px;letter-spacing:-2px}.brand{font-size:19px}}
+
+/* Reviewed logo, participation layout, and public information sections. */
+.logo-symbol{display:inline-flex;width:40px;height:40px;flex-shrink:0;margin-right:6px}.logo-symbol svg{display:block;width:100%;height:100%}
+.registration{grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);gap:6%}
+.registration-panel{padding-left:36px}.registration-panel>.small-label{margin-bottom:24px}
+.registration-panel #registration-action .primary{background:#f3d49a;color:#203b60;border:1px solid #f3d49a;font-size:16px;padding:16px 22px;margin:16px 0}
+.registration-panel #registration-action .primary:hover{background:#ffe3ad;border-color:#ffe3ad}
+.outcomes{background:#eef2f7}.outcomes-intro{font-size:17px;max-width:820px}.outcomes-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:32px 0 24px}.outcomes-grid article{background:#fafaf8;padding:28px;border-top:3px solid #a6b9d2}.outcomes-grid h3{margin:16px 0 12px}.outcomes-grid p{font-size:16px;line-height:1.65}.outcomes .fine{font-size:13px}
+.faq-contact-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,.8fr);gap:7%}.faq-list details{border-top:1px solid var(--line);padding:20px 0}.faq-list details:last-child{border-bottom:1px solid var(--line)}.faq-list summary{font-size:17px;font-weight:600;cursor:pointer;line-height:1.5;padding-right:12px}.faq-list summary:focus-visible{outline:3px solid #a36624;outline-offset:5px}.faq-list details p{font-size:16px;line-height:1.7;margin:14px 0 6px}.contact-card{background:#eef2f7;padding:28px;align-self:start}.contact-card h3{margin-top:0}.contact-card p{font-size:16px}.back-top{display:inline-block;margin-top:30px}
+@media(min-width:1051px) and (max-width:1250px){nav{gap:16px;font-size:14px}.brand{font-size:19px}header{padding-left:4%;padding-right:4%}}
+@media(max-width:760px){.logo-symbol{width:36px;height:36px}.registration{grid-template-columns:1fr;gap:24px}.registration-panel{padding:27px 0 0}.outcomes-grid,.faq-contact-grid{grid-template-columns:1fr;gap:20px}.outcomes-grid article{padding:24px}.registration h2{font-size:34px}}
