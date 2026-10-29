@@ -71,3 +71,17 @@ footer p,.footer-brand p{font-size:14px;line-height:1.7}
 .registration-panel .fine,.registration-panel #deadline{font-size:17px;line-height:1.75}
 .program-layout aside>.text-link,.contact-card>.text-link{font-size:16px}
 @media(max-width:760px){.program-list article{grid-template-columns:1fr}.program-list h3,.program-list .agenda-date{font-size:19px}.registration-panel .fine,.registration-panel #deadline{font-size:17px}}
+
+/* Organizer profiles: two teams with consistent portrait cards. */
+.organizers-section>h2{margin-bottom:44px}
+.organizer-group+.organizer-group{margin-top:56px}
+.organizer-group>h3{font-size:26px;font-weight:600;margin:0 0 24px;padding-bottom:16px;border-bottom:1px solid var(--line,#d8e0ea)}
+.people-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;align-items:start}
+.person-card{min-width:0;background:#fff;border:1px solid #dce3ec;border-radius:12px;overflow:hidden}
+.person-card>img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;display:block}
+.person-card:nth-child(4)>img{object-position:center 30%}
+.person-info{padding:22px 20px 24px}
+.person-info h4{font-size:21px;line-height:1.3;margin:0 0 14px;color:#203b60}
+.person-info p{font-size:16px;line-height:1.55;margin:5px 0;color:#5f6f84}
+@media(max-width:1000px){.people-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:540px){.people-grid{grid-template-columns:1fr;gap:24px}.person-card{max-width:400px;width:100%}.organizer-group>h3{font-size:24px}.person-info h4{font-size:22px}.person-info p{font-size:17px}}
