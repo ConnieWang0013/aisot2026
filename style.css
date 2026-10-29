@@ -95,3 +95,11 @@ footer p,.footer-brand p{font-size:14px;line-height:1.7}
 nav .nav-cms{font-size:.9em}nav{gap:23px}
 @media(min-width:1051px) and (max-width:1250px){nav{gap:13px;font-size:14px}}
 @media(max-width:760px){.cms-card{grid-template-columns:1fr;gap:24px;padding:25px}.cms-card aside{border-left:0;border-top:1px solid #d6dfeb;padding:24px 0 0}.cms-card h2{font-size:29px}.cms-card p{font-size:17px}nav{gap:17px}}
+
+/* CMS presentation refinements. */
+.cms-section{background:var(--paper)}
+.cms-card h2{margin-top:0}
+.cms-fact h3{font-size:18px;font-weight:700;margin:0 0 12px}
+.cms-fact+.cms-fact{margin-top:32px}
+.cms-fact p{margin:0 0 14px}
+.organizers-section>.eyebrow{margin-bottom:38px}
