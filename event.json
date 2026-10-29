@@ -13,7 +13,7 @@
   },
   "contactEmail": null,
   "organizers": [],
-  "lastUpdated": "October 27, 2026",
+  "lastUpdated": "October 29, 2026",
   "topics": [
     [
       "01",
@@ -43,22 +43,22 @@
   ],
   "program": [
     {
-      "title": "Orientation & research questions",
+      "title": "Orientation & Research Questions",
       "description": "Introduce the event objectives, OT datasets, analytical tools, and shared research problems.",
       "dateLabel": "December 11"
     },
     {
-      "title": "Data exploration & anomaly detection",
+      "title": "Data Exploration & Anomaly Detection",
       "description": "Explore network and process telemetry and experiment with data-driven detection approaches.",
       "dateLabel": "December 12"
     },
     {
-      "title": "Investigation & prototyping",
+      "title": "Investigation & Prototyping",
       "description": "Investigate anomalies, connect analytical platforms, and prototype AI-assisted workflows.",
       "dateLabel": "December 13"
     },
     {
-      "title": "Demonstrations & next steps",
+      "title": "Demonstrations & Next Steps",
       "description": "Share experimental findings, demonstrate prototypes, and discuss future research opportunities.",
       "dateLabel": "December 14"
     }
