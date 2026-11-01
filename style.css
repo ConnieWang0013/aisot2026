@@ -103,3 +103,10 @@ nav .nav-cms{font-size:.9em}nav{gap:23px}
 .cms-fact+.cms-fact{margin-top:32px}
 .cms-fact p{margin:0 0 14px}
 .organizers-section>.eyebrow{margin-bottom:38px}
+
+/* Streamlined event overview and centered agenda. */
+[hidden]{display:none!important}
+.program-layout{display:block;max-width:1040px;margin:40px auto 0}
+.program-list article{grid-template-columns:170px minmax(0,1fr);gap:30px}
+.hero h1{margin-bottom:30px}
+@media(max-width:760px){.program-layout{margin-top:28px}.program-list article{grid-template-columns:1fr;gap:12px}.event-strip strong{overflow-wrap:break-word}}

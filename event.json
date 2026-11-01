@@ -5,42 +5,15 @@
   "dateLabel": "December 11–14, 2026",
   "dateNote": "Four-day hackathon",
   "location": "Montréal, Québec, Canada",
-  "venue": "McGill University · Room TBC",
+  "venue": "McGill University · Room TBD",
   "registration": {
     "status": "open",
     "url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=cZYxzedSaEqvqfz4-J8J6qdW_2TlSAtPuvEzPFRQqt5UNjhVWVhTUTNUQlg0SzhGTkFaN0RIMURURy4u",
-    "deadline": null
+    "deadline": "November 20, 2026"
   },
   "contactEmail": null,
   "organizers": [],
-  "lastUpdated": "October 29, 2026",
-  "topics": [
-    [
-      "01",
-      "OT telemetry analytics",
-      "Explore network and process-level data to understand operational behavior and identify security-relevant patterns."
-    ],
-    [
-      "02",
-      "AI-driven anomaly detection",
-      "Apply machine learning and data science to unusual network behavior and process measurements."
-    ],
-    [
-      "03",
-      "Intelligent investigation",
-      "Connect anomalies, evidence, and analytical insights through structured investigation workflows."
-    ],
-    [
-      "04",
-      "Agentic AI & tool integration",
-      "Explore AI-assisted interactions between analytical platforms, including ZenithVector and Malcolm."
-    ],
-    [
-      "05",
-      "Collaborative prototyping",
-      "Develop and demonstrate experimental analytics, investigation workflows, and tool integrations together."
-    ]
-  ],
+  "lastUpdated": "November 1, 2026",
   "program": [
     {
       "title": "Orientation & Research Questions",
