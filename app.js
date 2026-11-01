@@ -5,7 +5,7 @@ nav.addEventListener('click', e => { if(e.target.closest('a')) { nav.classList.r
 document.addEventListener('keydown', e => { if(e.key==='Escape' && nav.classList.contains('open')) { nav.classList.remove('open'); menu.setAttribute('aria-expanded','false'); menu.focus(); } });
 function element(tag, text, cls) { const el=document.createElement(tag); if(text) el.textContent=text; if(cls) el.className=cls; return el; }
 function safeURL(value) { try { const u=new URL(value); return u.protocol==='https:' ? u.href : null; } catch { return null; } }
-fetch('./event.json?v=20261101-simplified', { cache: 'no-store' }).then(r => { if(!r.ok) throw Error('Event information unavailable'); return r.json(); }).then(event => {
+fetch('./event.json?v=20261101-remote', { cache: 'no-store' }).then(r => { if(!r.ok) throw Error('Event information unavailable'); return r.json(); }).then(event => {
  document.querySelectorAll('[data-field]').forEach(el => { if(event[el.dataset.field]) el.textContent=event[el.dataset.field]; });
  const program=document.querySelector('#program-list');
  const sessions=event.sessions?.length ? event.sessions : event.program;

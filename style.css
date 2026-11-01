@@ -110,3 +110,10 @@ nav .nav-cms{font-size:.9em}nav{gap:23px}
 .program-list article{grid-template-columns:170px minmax(0,1fr);gap:30px}
 .hero h1{margin-bottom:30px}
 @media(max-width:760px){.program-layout{margin-top:28px}.program-list article{grid-template-columns:1fr;gap:12px}.event-strip strong{overflow-wrap:break-word}}
+
+/* Remote access placeholder, disabled until joining details are confirmed. */
+.remote-section{background:#eef2f7}
+.remote-layout{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:60px;align-items:center}
+.remote-layout h2{margin:0 0 24px}.remote-layout p{font-size:18px;line-height:1.75;color:var(--muted)}
+.remote-action{border-left:1px solid var(--line);padding-left:40px}.remote-action .remote-join{background:#d3dcea;color:#56677f;border:1px solid #b8c6d9;cursor:not-allowed;font-size:18px;font-weight:600;padding:17px 32px;opacity:1}.remote-action #remote-status{font-size:16px;margin:18px 0 0}
+@media(max-width:760px){.remote-layout{grid-template-columns:1fr;gap:24px}.remote-action{border-left:0;border-top:1px solid var(--line);padding:24px 0 0}.remote-layout p{font-size:17px}}
