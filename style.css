@@ -117,3 +117,7 @@ nav .nav-cms{font-size:.9em}nav{gap:23px}
 .remote-layout h2{margin:0 0 24px}.remote-layout p{font-size:18px;line-height:1.75;color:var(--muted)}
 .remote-action{border-left:1px solid var(--line);padding-left:40px}.remote-action .remote-join{background:#d3dcea;color:#56677f;border:1px solid #b8c6d9;cursor:not-allowed;font-size:18px;font-weight:600;padding:17px 32px;opacity:1}.remote-action #remote-status{font-size:16px;margin:18px 0 0}
 @media(max-width:760px){.remote-layout{grid-template-columns:1fr;gap:24px}.remote-action{border-left:0;border-top:1px solid var(--line);padding:24px 0 0}.remote-layout p{font-size:17px}}
+
+/* Highlight the registration deadline. */
+.registration-panel #deadline{display:block;font-size:20px;font-weight:700;line-height:1.6;color:#ffe2ad;border-left:4px solid #f3d49a;background:rgba(255,255,255,.07);padding:14px 18px;margin-top:28px}
+@media(max-width:760px){.registration-panel #deadline{font-size:19px;padding:14px 16px}}
