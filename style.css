@@ -131,3 +131,5 @@ nav .nav-cms{font-size:.9em}nav{gap:23px}
 .social-note h3{font-size:19px;font-weight:600;margin:0 0 10px}
 .social-note p{font-size:16px;line-height:1.65;margin:0}
 @media(max-width:760px){.institution-grid{grid-template-columns:1fr;gap:16px}.institution-card{min-height:140px;padding:28px 20px}.institution-card h3{font-size:28px}.social-note{padding:22px}}
+
+.cms-card.cms-card-single{grid-template-columns:minmax(0,1fr);gap:0}
