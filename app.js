@@ -8,8 +8,9 @@ function safeURL(value) { try { const u=new URL(value); return u.protocol==='htt
 fetch('./event.json?v=20261102-refinements', { cache: 'no-store' }).then(r => { if(!r.ok) throw Error('Event information unavailable'); return r.json(); }).then(event => {
  document.querySelectorAll('[data-field]').forEach(el => { if(event[el.dataset.field]) el.textContent=event[el.dataset.field]; });
  const program=document.querySelector('#program-list');
+ program.replaceChildren();
  const sessions=event.sessions?.length ? event.sessions : event.program;
- sessions.forEach((session,i)=> { const row=element('article'); const body=element('div'); body.append(element('h3',session.title),element('p',session.description)); if(session.time) body.prepend(element('p',session.time,'small-label')); if(session.speaker) body.append(element('p',session.speaker)); row.append(element('span',session.dateLabel || 'Date TBC','agenda-date'),body); program.append(row); });
+ sessions.forEach((session,i)=> { const row=element('article'); const body=element('div'); body.append(element('h3',session.title),element('p',session.description)); if(session.dateLabel==='December 12') body.append(element('p','Social activity (planned)')); if(session.time) body.prepend(element('p',session.time,'small-label')); if(session.speaker) body.append(element('p',session.speaker)); row.append(element('span',session.dateLabel || 'Date TBC','agenda-date'),body); program.append(row); });
  if(event.organizers?.length){ const list=document.querySelector('#organizer-list'); list.replaceChildren(); event.organizers.forEach(o=> { const person=element('article');person.append(element('h3',o.name),element('p',o.role));list.append(person); }); }
  const registration=event.registration;
  const url=safeURL(registration.url);
@@ -17,4 +18,4 @@ fetch('./event.json?v=20261102-refinements', { cache: 'no-store' }).then(r => { 
  if(registration.status==='closed'){ const disabled=element('button','Registration closed','button disabled');disabled.disabled=true;document.querySelector('#registration-action').replaceChildren(disabled); ['#hero-registration','.nav-register'].forEach(selector=>{const a=document.querySelector(selector);a.href='#registration';a.removeAttribute('target');});document.querySelector('#hero-registration').textContent='Registration closed'; }
  if(registration.deadline) document.querySelector('#deadline').textContent=`Registration deadline: ${registration.deadline}.`;
  if(event.contactEmail && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(event.contactEmail)){const a=element('a',event.contactEmail,'text-link');a.href=`mailto:${event.contactEmail}`;document.querySelector('#contact-details').replaceChildren(a);}
-}).catch(()=>{document.querySelector('#program-list').append(element('p','Orientation, data exploration, collaborative investigation, and demonstrations are proposed. The detailed program will follow organizer confirmation.'));});
+}).catch(()=>{ /* Keep the complete static agenda when event data is unavailable. */ });
